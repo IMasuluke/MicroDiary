@@ -30,7 +30,6 @@
                 android:layout_centerInParent="true"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-
                 android:layout_below="@+id/calendarLayout"
                 android:id="@+id/btnRecordDay"
                 android:layout_marginEnd="8dp"

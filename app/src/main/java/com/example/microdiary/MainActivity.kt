@@ -63,6 +63,12 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    override fun onPrepareOptionsMenu(menu: Menu?): Boolean {
+        val mic = menu?.findItem(R.id.action_mic)
+        mic?.setVisible(false)
+        return super.onPrepareOptionsMenu(menu)
+    }
+
     fun SetUpCalendar(){
         lateinit var date: String
 

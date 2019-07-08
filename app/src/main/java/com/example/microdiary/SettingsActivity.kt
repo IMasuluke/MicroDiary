@@ -24,7 +24,7 @@ class SettingsActivity : AppCompatActivity() {
 
         settingsLayout.addView(SettingsCards(this@SettingsActivity,Settings.DoseDayColour))
 
-        settingsLayout.getChildAt()
+        settingsLayout.getChildAt(0)
     }
 
     class SettingsFragment : PreferenceFragmentCompat() {
